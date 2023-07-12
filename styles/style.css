@@ -109,7 +109,7 @@ body{
 }
 
 .apresentacao__links__botao:hover{
-    width: 295px;
+    width: 49%;
     background-color: var(--shadow-hover-color);
     color: var(--bold-color);
     box-shadow: 4px 4px var(--bold-color);
@@ -117,12 +117,6 @@ body{
 
 .apresentacao__foto{
     width: 50%;
-}
-
-.apresentacao__foto:hover{
-    width: 465px;
-    border-radius: 16px;
-    box-shadow: 5px 5px var(--shadow-hover-color);
 }
 
 .rodape{
