@@ -8,10 +8,11 @@
 
 * CSS
 
-* Flex-box
+* Java Script
 
 ## Developed by:
 
 ### Wendell Silva
 
-### https://www.linkedin.com/in/wendell-pereira-b-da-silva-83b5518b/
+<p> https://www.linkedin.com/in/wendell-pereira-b-da-silva-83b5518b/ </p>
+<p> https://portifolio-six-indol.vercel.app/ </p>
