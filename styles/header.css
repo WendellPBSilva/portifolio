@@ -1,0 +1,24 @@
+.cabecalho{
+    padding: 2% 0% 0% 8%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-family: var(--text-font);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--bold-color);
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    .cabecalho{
+        padding: 6%;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }

@@ -1,0 +1,38 @@
+.apresentacao__projects{
+    padding: 4% 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+/* .apresentacao__projects__conteudo{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: justify;
+}
+
+.apresentacao__projects__titulo{
+    font-size: 1.75rem;
+    font-family: var(--title-font);
+} */
+
+.projects__item{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+.projects__image{
+    padding: 1em;
+    width: 24em;
+}
+
+.projects__list{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}

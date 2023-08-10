@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Kurale&family=Laila:wght@400;600&family=Montserrat:wght@400;600&display=swap');
+@import url("resume.css");
+@import url("projects.css");
+@import url("header.css");
+@import url("footer.css");
 
 :root{
     --main-color:#121036;
@@ -28,23 +32,6 @@ body{
     box-sizing: border-box;
     background-color: var(--main-color);
     color: var(--text-color);
-}
-
-.cabecalho{
-    padding: 2% 0% 0% 8%;
-}
-
-.cabecalho__menu{
-    display: flex;
-    gap: 80px;
-}
-
-.cabecalho__menu__link{
-    font-family: var(--text-font);
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--bold-color);
-    text-decoration: none;
 }
 
 .apresentacao{
@@ -119,24 +106,7 @@ body{
     width: 50%;
 }
 
-.rodape{
-    background-color: var(--bold-color);
-    color: var(--main-color);
-    padding: 10px;
-    text-align: center;
-    font-family: var(--text-font);
-    font-size: 1rem;
-    font-weight: 400;
-}
-
-
 @media (max-width: 1200px) {
-    .cabecalho{
-        padding: 6%;
-    }
-    .cabecalho__menu{
-        justify-content: center;
-    }
     .apresentacao{
         flex-direction: column-reverse;
         padding: 5%;
