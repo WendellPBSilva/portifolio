@@ -5,7 +5,7 @@
     justify-content: space-between;
     gap: 82px;
 }
-/* .apresentacao__projects__conteudo{
+.apresentacao__projects__conteudo{
     width: auto;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
 .apresentacao__projects__titulo{
     font-size: 1.75rem;
     font-family: var(--title-font);
-} */
+}
 
 .projects__item{
     display: flex;
@@ -24,8 +24,8 @@
     margin: 0;
 }
 .projects__image{
-    padding: 1em;
-    width: 24em;
+    padding: 0.5em;
+    width: 36em;
 }
 
 .projects__list{
