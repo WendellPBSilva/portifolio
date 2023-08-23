@@ -1,7 +1,35 @@
-.experience__title{
+.resume__title{
+    background:none;
+}
+
+.resume__list__title{
     font-size: 1.5em;
 }
 
-.summary__list{
+.resume__list__text{
+    margin: 0.5em 0;
     list-style: disc;
+}
+
+.resume__line{
+    border: 1px dashed ;
+}
+
+.certification__link{
+    margin: 0.3em 0;
+    font-size: 1.25rem;
+    font-family: var(--text-font);
+    color: var(--bold-color);
+    text-decoration: none;
+}
+.certification__link:hover{
+    color: var(--text-color);
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
 }

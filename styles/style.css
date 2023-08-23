@@ -50,6 +50,7 @@ body{
 }
 
 .apresentacao__conteudo__titulo{
+    margin: 0.3em 0;
     font-size: 1.75rem;
     font-family: var(--title-font);
 }
@@ -60,6 +61,7 @@ body{
 }
 
 .apresentacao__conteudo__texto{
+    margin: 0.3em 0;
     font-size: 1.25rem;
     font-family: var(--text-font);
 }
